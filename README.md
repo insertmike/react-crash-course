@@ -1,6 +1,6 @@
 # React Crash Course
 
-Used the Traversy Media Crash Course on React to familiarize myself with the framework (Check Out The Crash Course)[https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=109s]
+Used the Traversy Media Crash Course on React to familiarize myself with the framework [Check Out The Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=109s)
 
 ## Covered Topics
 - 0:00 - Intro & Slides
