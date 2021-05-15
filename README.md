@@ -50,3 +50,5 @@ Navigate to http://localhost:3000/
 ![image](https://user-images.githubusercontent.com/45242072/118365555-262a6800-b595-11eb-953e-4b20b2c788e9.png)
 ![image](https://user-images.githubusercontent.com/45242072/118365567-34788400-b595-11eb-9b62-8957f3e5f175.png)
 
+## Time Taken | Waka Statistics
+![image](https://user-images.githubusercontent.com/45242072/118365693-d009f480-b595-11eb-956f-167b1887ad78.png)
