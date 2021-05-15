@@ -1,7 +1,9 @@
+import { useState, useEffect } from 'react'
+
 import Header from './components/Header'
 import AddTask from './components/AddTask'
 import Tasks from './components/Tasks';
-import { useState } from 'react'
+
 
 function App() {
   const [showAddTask, setShowAddTask] = useState(false)
@@ -10,6 +12,21 @@ function App() {
   const name = 'Brad';
   const x = true;
 
+  useEffect(() => {
+    const getTasks = async () => {
+      const tasksFromServer = await fetchTasks()
+      setTasks(tasksFromServer)
+    }
+
+    getTasks()
+  }, [])
+
+  // Fetch Tasks
+  const fetchTasks = async () => {
+    const res = await fetch('http://localhost:5000/tasks')
+    const data = await res.json()
+    return data;
+  }
   // Toggle Reminder
   const  toggleReminder = (id) => {
     console.log(id)
