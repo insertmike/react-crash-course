@@ -42,7 +42,7 @@ Used the [Traversy Media Crash Course on React](https://www.youtube.com/watch?v=
 2. npm run server
 3. npm start 
 
-Navigate to "http://localhost:3000/"
+Navigate to http://localhost:3000/
 
 ## How the app looks like
 
